@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 abcd
 fwefve43ervfdr4fgr4fre
+=======
+나는 유진이얌 ^0^
+>>>>>>> 83eda7cb8fdae2a4a024975477c1f39436aa1086
