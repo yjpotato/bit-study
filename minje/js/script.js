@@ -1,6 +1,8 @@
-const myFrame = document.getElementById("myFrame");
-const calMenuBtn = document.getElementById("calMenuBtn");
-
-calMenuBtn.addEventListener("click", () => {
-  myFrame.src = "/table.html"; // 로드할 웹 페이지 URL을 입력합니다.
-});
+function changeMainFrameSrc() {
+  var mainFrame = document.getElementById("mainFrame");
+  var newUrl = "table.html";
+  mainFrame.src = newUrl;
+  mainFrame.onload = function() {
+    console.log("iframe 로드 완료");
+  };
+}

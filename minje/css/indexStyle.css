@@ -51,9 +51,8 @@ nav ul ul li a:hover {
   background-color: #4b545f;
 }
 
-#myFrame {
-  width: 1000%;
-  height: 81000px;
-  border: none; 
+#mainFrame {
+  width: 100%;
+  height: 550px;
+  overflow: auto;
 }
-
