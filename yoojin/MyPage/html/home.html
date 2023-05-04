@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title >yoojin's page</title>
+	<style>
+		/* 전체 스타일 초기화 */
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			margin: 0;
+			height: 100vh;
+			scroll-snap-type: y mandatory;
+			overflow-y: scroll;
+			scroll-behavior: smooth;
+		}
+
+		header {
+			text-align: center;
+			height: 10vh;
+			background-color: #f5d0e1;
+			color: rgb(95, 82, 95); /* 제목 색상 */
+  			font-family: Arial, sans-serif; /* 글꼴 */
+		}
+
+		nav {
+			display: flex;
+			justify-content: center;
+			background-color: #f5d0e1;
+			padding: 10px;
+			position: sticky;
+			top: 0;
+			z-index: 1;
+		}
+
+		nav a {
+			margin: 0 10px;
+			text-decoration: none;
+			color: darkgrey;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		nav a:hover {
+			color: black;
+		}
+		
+		section {
+			height: 100vh;
+			scroll-snap-align: start;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 5em;
+			color: white;
+		}
+
+		#section1 {
+			background-image: url("../html/images/home_main.png");
+			background-size: cover;
+  			background-position: center center;
+		}
+
+		#section2 {
+			background-image: url("../html/images/about_page.png");
+			background-size: cover;
+  			background-position: center center;
+		}
+
+		#section3 {
+			background-image: url("home.jpg");
+  			background-size: cover;
+		}
+
+		#section4 {
+			background-image: url("home.jpg");
+  			background-size: cover;
+		}
+
+		footer {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 10vh;
+			background-color: #e5bace;
+		}
+        
+	</style>
+</head>
+<body>
+	<header>
+		<h1>yoojin's page</h1>
+		<nav>
+			<a href="home.html#section1">Home</a>
+			<a href="about.html#section2">About</a>
+			<a href="favorite.html#section3">My Favorite</a>
+			<a href="contact.html#section4">Contact</a>
+		</nav>
+	</header>
+	<main>
+		<section id="section1"></section>
+		<section id="section2"></section>
+		<section id="section3">My Favorite</section>
+		<section id="section4">Contact</section>
+	</main>
+	<footer>
+		<p>© yoojin</p>
+	</footer>
+</body>
+</html>
